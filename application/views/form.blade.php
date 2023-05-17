@@ -39,7 +39,7 @@
         <p>Masukan data yang akan di proses</p>
         <form method="post" action="{{ site_url('Welcome/tampil') }}">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nama (text only)</label>
+                <label for="exampleInputEmail1" class="form-label">Nama </label>
                 <input type="text" class="form-control" id="nama" name="nama" aria-describedby="nama" required>
             </div>
             <div class="mb-3">
